@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Food-website</title>
+</head>
+<body>
+    <!--=============== HEADER ================-->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class='bx bx-lemon'></i> 360 Organic foodie
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class='bx bx-menu' id="menu-btn"></div>
+            <div class='bx bx-search-alt-2' id="search-btn"></div>
+            <div class='bx bx-cart' id="cart-btn"></div>
+            <!-- <div class='bx bxs-user' id="login-btn"></div> -->
+        </div>
+
+        <!--===== Search =====-->
+        <form action="" class="search_form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="bx bx-search-alt-2"></label>
+        </form>
+
+        <!--==== shopping cart ====-->
+        <div class="shopping_cart">
+            <div class="box">
+                <i class="bx bx-trash"></i>
+                <img src="assets/image/cart-img-1.avif" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bx bx-trash"></i>
+                <img src="assets/image/cart-img-2.jpg" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="bx bx-trash"></i>
+                <img src="assets/image/cart-img-3.jpg" alt="">
+                <div class="content">
+                    <h3>Orange</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- <form action="#" class="login_form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have any account <a href="#">create now</a></p>
+            <input type="submit" placeholder="login now" class="btn">
+        </form> -->
+    </header>
+
+    <!--=============== HOME ================-->    
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for you</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ut optio dolore dolores cupiditate modi! Praesentium?
+            </p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!--=============== FEATURES ==============-->
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+
+        <div class="box_container">
+            <div class="box">
+                <img src="assets/image/feature-img-1.png" alt="">
+                <h3>Fresh and organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            
+            <div class="box">
+                <img src="assets/image/feature-img-2.png" alt="">
+                <h3>Free delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="assets/image/feature-img-3.png" alt="">
+                <h3>easy payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deserunt.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--================ PRODUCTS -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="swiper product_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-1.jpg" alt="">
+                    <h3>Fresh Yam</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-2.jpg" alt="">
+                    <h3>Fresh orange</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-3.jpg" alt="">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-4.jpg" alt="">
+                    <h3>Fresh Cabbage</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper product_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-5.jpg" alt="">
+                    <h3>Fresh Potato</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-6.jpg" alt="">
+                    <h3>Fresh avocado</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-7.jpg" alt="">
+                    <h3>Fresh carrot</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="assets/image/product-8.jpg" alt="">
+                    <h3>Green Lemon</h3>
+                    <div class="price">$4.99/- 10.99/-</div>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============= CATEGORIES ============-->
+    <section class="categories" id="categories">
+        <h1 class="heading"> product <span>categories</span></h1>
+    
+        <div class="box_container">
+            <div class="box">
+                <img src="assets/image/categories1.jpg" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="assets/image/amala.JPG" alt="">
+                <h3>Amala Flour</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="assets/image/Garri.JPG" alt="">
+                <h3>garri</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+    
+            <div class="box">
+                <img src="assets/image/rice.JPG" alt="">
+                <h3>Rice</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!--============== REVIEW =============-->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+    
+        <div class="swiper review_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="assets/image/profilepic.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet c iste volue eos hic mollitia. Suscipit qui ex in distinctio fuga!
+                    gni voluptatibus hic neque! Doloreducimus iusto harum or eos, voluptates unde!</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="assets/image/profilepic.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet c iste volue eos hic mollitia. Suscipit qui ex in distinctio fuga!
+                    gni voluptatibus hic neque! Doloreducimus iusto harum or eos, voluptates unde!</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="assets/image/profilepic.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet c iste volue eos hic mollitia. Suscipit qui ex in distinctio fuga!
+                    gni voluptatibus hic neque! Doloreducimus iusto harum or eos, voluptates unde!</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <img src="assets/image/profilepic.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet c iste volue eos hic mollitia. Suscipit qui ex in distinctio fuga!
+                    gni voluptatibus hic neque! Doloreducimus iusto harum or eos, voluptates unde!</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="assets/image/profilepic.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet c iste volue eos hic mollitia. Suscipit qui ex in distinctio fuga!
+                    gni voluptatibus hic neque! Doloreducimus iusto harum or eos, voluptates unde!</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--============= BLOGS ==============-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"> our <span>blogs</span></h1>
+    
+        <div class="box_container">
+            <div class="box">
+                <img src="assets/image/fruit1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="bx bx-user"></i> by user</a>
+                        <a href="#"><i class="bx bx-calendar"></i>1st may, 2021</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime magni rem asperior</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="assets/image/fruit2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="bx bx-user"></i> by user</a>
+                        <a href="#"><i class="bx bx-calendar"></i>1st may, 2021</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime magni rem asperior</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="assets/image/fruit3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="bx bx-user"></i> by user</a>
+                        <a href="#"><i class="bx bx-calendar"></i>1st may, 2021</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime magni rem asperior</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <!--============== FOOTER ==============-->
+    <footer class="footer">
+        <div class="box_container">
+            <div class="box">
+                <h3><i class='bx bx-lemon'></i> 360 Organic foodie</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <div class="share">
+                    <a href="#" class="bx bxl-facebook"></a>
+                    <a href="#" class="bx bxl-twitter"></a>
+                    <a href="#" class="bx bxl-instagram"></a> 
+                    <a href="#" class="bx bxl-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="bx bx-phone"></i>+234 3363637737</a>
+                <a href="#" class="links"> <i class="bx bx-phone"></i>+234 8738377388</a>
+                <a href="#" class="links"> <i class="bx bx-envelope"></i>glorybrain01@gmail.com</a>
+                <a href="#" class="links"> <i class='bx bxs-map' ></i></i>olaniyi, abule egba, lagos</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> home </a>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> features </a>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> products </a>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> categories </a>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> reviews </a>
+                <a href="#" class="links"> <i class='bx bx-right-arrow-alt' ></i> blogs </a>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="assets/image/payment.JPG" class="payment_img" alt="">
+            </div>
+        </div>  
+
+        <div class="credit">created by <span>Glorybrain</span> | all right reserved</div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
